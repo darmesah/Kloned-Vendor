@@ -1,0 +1,44 @@
+.container {
+    padding: 20px;
+}
+
+
+.user {
+    background-color: #fff;
+    border-radius: 0.5rem;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+}
+
+.img {
+    width: 21%;
+    padding-right: 10px;
+}
+
+.img img {
+    width: 90%;
+    border-radius: 100%;
+}
+
+.text h3 {
+    color: #ff470d;
+    font-size: 0.9rem;
+}
+
+.text p {
+    color: #6c757d;
+    font-size: 0.85rem;
+}
+
+.p1 {
+    color: #6c757d;
+    padding: 25px 0 25px 25px;
+    font-size: 0.85rem;
+}
+
+@media (max-width: 1200px) {
+    .user {
+        background-color: #f5f4fe;
+    }
+}

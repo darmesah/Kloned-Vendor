@@ -1,0 +1,88 @@
+.container {
+    display: flex;
+    padding: 30px 20px 20px 20px;
+    align-items: center;
+    width: 80%;
+}
+
+.text {
+    font-size: 1.6rem;
+    margin-right: 70px;
+}
+
+.search_cont {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    background: white;
+    height: 45px;
+    border-radius: 6px;
+}
+
+.search_cont button {
+    background: none;
+    border: none;
+    font-size: 1rem;
+    padding: 0 30px 0 20px;
+    cursor: pointer;
+}
+
+.search_cont input {
+    border: none;
+    font-size: 1rem;
+    width: 87%;
+}
+
+.search_cont input:focus {
+    outline: none;
+}
+
+.notification {
+    position: relative;
+    font-size: 1.2rem;
+    margin: 0 20px 0 30px;
+}
+
+.notification_number {
+    background-color: red;
+    padding: .2px 6px;
+    font-size: .71rem;
+    border-radius: 100%;
+    color: white;
+    position: absolute;
+    right: -7px;
+    top: -10px;
+}
+
+.add_btn {
+    background-color: #FF6E40;
+    color: #fff;
+    padding: 13px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+.plus {
+    position: relative;
+    top: 2px;
+    padding-right: 10px;
+}
+
+.flex_cont {
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 1200px) {
+
+    .container {
+        padding: 20px;
+    }
+
+    .search_cont,
+    .notification,
+    .btn_cont {
+        display: none;
+    }
+}

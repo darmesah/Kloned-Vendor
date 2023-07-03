@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "PoppinsLight";
+  /*Can be any text*/
+  src: local("Poppins"),
+    url("./fonts/Poppins/Poppins-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "PoppinsRegular";
+  /*Can be any text*/
+  src: local("PoppinsRegular"),
+    url("./fonts/Poppins/Poppins-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "PoppinsMedium";
+  /*Can be any text*/
+  src: local("Poppins"),
+    url("./fonts/Poppins/Poppins-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "PoppinsSemiBold";
+  /*Can be any text*/
+  src: local("Poppins"),
+    url("./fonts/Poppins/Poppins-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "PoppinsBold";
+  /*Can be any text*/
+  src: local("Poppins"),
+    url("./fonts/Poppins/Poppins-Bold.ttf") format("truetype");
+}
+
+body {
+  background-color: #F5F4FE;
+  font-family: 'PoppinsRegular';
+}

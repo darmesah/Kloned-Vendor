@@ -1,0 +1,66 @@
+.container {
+    padding: 10px 20px 30px 20px;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px 30px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.view_cont {
+    display: flex;
+    font-size: 1.5rem;
+}
+
+.view_cont span {
+    cursor: pointer;
+}
+
+.grid_icon {
+    padding-right: 10px;
+}
+
+.active_icon {
+    color: #FF6E40;
+}
+
+.products_grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.products_list {
+    width: 90%;
+}
+
+.list_head {
+    display: flex;
+    padding: 0 20px;
+}
+
+.list_head h4:nth-child(1) {
+    width: 10%;
+}
+
+.list_head h4:nth-child(2) {
+    width: 20%;
+}
+
+.list_head h4:nth-child(3) {
+    width: 30%;
+}
+
+.list_head h4:nth-child(4) {
+    width: 20%;
+}
+
+.list_head h4:nth-child(4) {
+    width: 20%;
+}

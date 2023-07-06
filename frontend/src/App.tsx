@@ -3,6 +3,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import "./App.css";
 
 import RootLayout from "./pages/Root";
+import Products from "./pages/Products/Products";
 
 const App = () => {
   return (
@@ -12,7 +13,10 @@ const App = () => {
           path: "/",
           element: <RootLayout />,
           errorElement: "",
-          children: [{ index: true, element: "" }],
+          children: [
+            { index: true, element: "" },
+            { path: "/products", element: <Products /> },
+          ],
         },
       ])}
     />

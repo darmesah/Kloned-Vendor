@@ -9,7 +9,7 @@ import {
 } from "react-icons/bs";
 
 import classes from "./components/Root.module.css";
-import Header from "../components/Header/Header";
+// import Header from "../components/Header/Header";
 import SideBar from "../components/Navigation/SideBar/SideBar";
 import { useState } from "react";
 
@@ -79,9 +79,9 @@ const RootLayout = (props: Props) => {
                   <BsFillArrowRightSquareFill />
                 </div>
               )}
-              <div className={classes.div2}>
+              {/* <div className={classes.div2}>
                 <Header />
-              </div>
+              </div> */}
             </div>
           </div>
           <div className={classes.mobile_search}>

@@ -1,0 +1,33 @@
+.grid {
+    /* display: none; */
+    width: 22%;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.img {
+    width: 100%;
+    height: 220px;
+    overflow: hidden;
+    border-radius: 10px 10px 0 0;
+}
+
+.img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+.grid h5 {
+    padding: 25px 0 0 20px;
+    font-family: 'PoppinsMedium';
+    font-weight: normal;
+    color: #ff470d;
+    font-size: 1.2rem;
+}
+
+.grid h4 {
+    padding: 10px 0 30px 20px;
+    font-size: 1.3rem;
+}
